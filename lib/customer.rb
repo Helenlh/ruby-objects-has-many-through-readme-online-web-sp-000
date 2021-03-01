@@ -31,7 +31,7 @@ end
 end
  
 def waiters
-waiters.meals.map do |meal|
+waiter.meals.map do |meal|
   meal.waiter == self 
   end 
 end 
